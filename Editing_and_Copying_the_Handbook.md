@@ -10,7 +10,7 @@ This page is for future users who want to edit this handbook or who want to make
 
 See [here](https://www.markdownguide.org/basic-syntax) for a Markdown guide. Though knowing basic Markdown will serve most of your needs, it is useful to know that Github uses slightly different Markdown called ["Github Flavored Markdown"](https://guides.github.com/features/mastering-markdown/) which differs in some places.
 
-Make **bold text** using `**example text**`, __italics__ using `__example text__`
+Make **bold text** using `**example text**`, *italics* using `*example text*`, and `code` using `` `example_text` ``
 
 ##### Headings
 
@@ -24,4 +24,4 @@ Put several hashes in front of your heading, more hashes means a smaller heading
 
 #### Publishing as a website
 
-[Github Pages](https://pages.github.com/) makes it easy to convert a repo directly into a website, however, it can be pretty expensive if you have several contributors to a repo. Additionally, the repository has to be public to produce a website. You can host the website for free and incorporate new contributions by making a public repository in someone's __individual__ account, cloning the original handbook repository to it, and, in your new repository settings, selecting a source and theme for your webpage in the "GitHub Pages" section. You can incorporate new changes by adding them to the individual repository which supports the website. 
+[Github Pages](https://pages.github.com/) makes it easy to convert a repo directly into a website, however, it can be pretty expensive if you have several contributors to a repo. Additionally, the repository has to be public to produce a website. You can host the website for free and incorporate new contributions by making a public repository in someone's *individual* account, cloning the original handbook repository to it, and, in your new repository settings, selecting a source and theme for your webpage in the "GitHub Pages" section. You can incorporate new changes by adding them to the individual repository which supports the website. 
