@@ -10,7 +10,7 @@ This page is for future users who want to edit this handbook or who want to make
 
 See [here](https://www.markdownguide.org/basic-syntax) for a Markdown guide. Though knowing basic Markdown will serve most of your needs, it is useful to know that Github uses slightly different Markdown called ["Github Flavored Markdown"](https://guides.github.com/features/mastering-markdown/) which differs in some places.
 
-Make **bold text** using `**example text**`, *italics* using `*example text*`, and `code` using `` `example_text` ``
+Make **bold text** using `**example text**`, *italics* using `*example text*`, and `code` using `` `example_text` ``. Numbering, bullet points (using dashes), and even [tables](https://www.tablesgenerator.com/markdown_tables) are easy to write in Markdown.
 
 ##### Headings
 
