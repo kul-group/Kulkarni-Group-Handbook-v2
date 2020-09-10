@@ -1,3 +1,5 @@
+> Catalyzing Your Transition to the Kulkarni Group!
+
 Handbook for the [Kulkarni Group](https://kulkarni.sf.ucdavis.edu/) at UC Davis. 
 
 [Handbook Home](https://sjholton.github.io/Kulkarni-Group-Handbook/)
