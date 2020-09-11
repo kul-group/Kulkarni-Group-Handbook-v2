@@ -54,24 +54,33 @@ Cori: address=cori.nersc.gov
 This is a basic introduction to the most commonly used bash commands. A more detailed tutorial can be found [here](Command_Line.md#command-line). You can practice most of this on your local machine. Essentially, the command line allows you to move around your computer, make new files, edit documents, and run simple programs. While this is easy to do on your local machine using Finder or Anaconda, when using a HPC, almost everything must be done using the command line. To start, open iTerm or other terminal software.
 
 ###### Moving Around
-1. See what directory you are in at anytime by typing `pwd` (and then pressing enter)
-2. See what items are in your current directory by typing `ls`
-3. Move to one of the subdirectories by typing `cd [directory_name]` for example, in your home directory (the one you start in when you open iTerm) `cd Desktop` will take you to your Desktop, and then typing ```ls``` will show you the same files that you see on your Desktop normally.
-4. Return to your home directory at anytime by typing `cd ~/` or just `cd`
-5. Go from your current directory to the one that contains it (or 'above' it) by typing `cd ../`
-6. Go to a particular directory by typing ```cd path/to/dir``` where 'path/to/dir' is the string you get when you type ```pwd``` in the particular directory you wish to go to
+- See what directory you are in at anytime by typing `pwd` (and then pressing enter)
+- See what items are in your current directory by typing `ls`
+- Move to one of the subdirectories by typing `cd [directory_name]` for example, in your home directory (the one you start in when you open iTerm) `cd Desktop` will take you to your Desktop, and then typing ```ls``` will show you the same files that you see on your Desktop normally.
+- Return to your home directory at anytime by typing `cd ~/` or just `cd`
+- Go from your current directory to the one that contains it (or 'above' it) by typing `cd ../`
+- Go to a particular directory by typing ```cd path/to/dir``` where 'path/to/dir' is the string you get when you type ```pwd``` in the particular directory you wish to go to
 
-###### Moving Files
+###### Moving Files 
+ - copy a file from one location to another using `cp path/to/source path/to/destination`
+ - copy a folder from one location to another using `cp -r path/to/source path/to/destination`
+ - copy a file from one location to another using `mv path/to/source path/to/destination`
+ - copy a folder from one location to another using `mv path/to/source path/to/destination`
+ - delete a file using `rm filename`. Be careful, there is no way to undo this action!!
+ - delete a folder using `rm -r foldername`. Be careful, there is no way to undo this action!!
+ 
+Note that in the previous examples, 'path/to/folder' and 'path/to/file' refer to the file paths you would need to navigate to that item. For example if you wanted to copy 'zeolite.traj' from the Documents folder to the Desktop, you could use `cp ~/Documents/zeolite.traj ~/Desktop/.`. However, if you are already in the Documents folder, you do not need to type the entire path, you can instead write `cp zeolite.traj ~/Desktop/.` since the terminal will automatically copy the file named 'zeolite.traj' in your current folder.
 
 ###### Opening Files
-1. make a new file by typing 'vi filename' where filename is the title of the file you want to create. This will open a blank file in the vi editor, more details on using vi in the next section. 
-2. open and existing file by typing 'vi filename' where filename is the title of the file you want to open. Once again this will open the file in a vi editor
+- make a new file by typing 'vi filename' where filename is the title of the file you want to create. This will open a blank file in the vi editor, more details on using vi in the next section. 
+- open and existing file by typing 'vi filename' where filename is the title of the file you want to open. Once again this will open the file in a vi editor.
 
 ###### Editing Files
 The vi editor seems simple but has many important commands. A more thorough list can be found [here](https://www.cs.colostate.edu/helpdocs/vi.html). 
 The basic commands are:
 - move around using the arrow keys
 - edit part of the file by pressing the 'i' key, in the lower left corner you will see the word 'INSERT' indicating that you are in insert mode. Here you can delete characters, write new ones, and add new lines. However, your changes do not automatically save! Get out of insert mode by pressing the escape key.
+- quit vi and save your work by holding down the shift key and pressing Z twice (shift + ZZ)
 
 
 
