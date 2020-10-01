@@ -11,8 +11,8 @@ This section lists the various places you should set up an account using your UC
     Messaging Ambar: Ambarish Kulkarni on UC Davis Slack
     Messaging the Group: kul-announcements
     
-- NERSC: fill out form on this page, later Ambar will add you (and set up MFA, DUO if possible)
-    Setting up sshproxy keys https://www.nersc.gov/users/connecting-to-nersc/connecting-with-ssh/
+- NERSC: fill out form on [this page](https://iris.nersc.gov/add-user), later Ambar will add you (and set up MFA, DUO if possible)
+    Setting up sshproxy keys: https://www.nersc.gov/users/connecting-to-nersc/connecting-with-ssh/
     
 - XSEDE: fill out form on [this page](https://portal.xsede.org/?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Fcreate_account)
 
