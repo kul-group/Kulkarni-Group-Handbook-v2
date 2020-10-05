@@ -1,28 +1,12 @@
 ### Meeting Schedule
 
-Meeting schedule updated quarterly. View updated schedule [here](https://ucdavis.app.box.com/notes/525192228480)
+Meeting schedule updated quarterly. View updated schedule [here](https://kulkarni.sf.ucdavis.edu/resources/group-meetings).
 
-Literature Meetings: The listed lab member leads a discussion of a paper, other students are tasked with explaining a figure from the paper. The week's paper and figure assignments are typically announced 3 days before the meeting on Slack.
+Research Meetings (once/week): These consist of 2 parts: 
+    1. a 'Research Talk' which is about 20 minutes long and intended to mimic a conference presentation, giving a detailed review of a student's work
+    2. a 'Literature Deep-Dive' which is a 20 minute review of the literature around a research topic related to a student's work
 
-Research Meetings: Update the team about what has been happening with your research. Students are split into two groups which alternate giving updates.
+Journal Club (once/week): The listed lab member leads a discussion of a paper, other students are tasked with explaining a figure from the paper. The week's paper and figure assignments are typically announced 3 days before the meeting on Slack.
 
-Group A members:
+Supergroup Meetings: These are combined Experimental-Theory group meetings with other research groups on campus, typically every 2 weeks. Updates about this will be posted on Slack.
 
-Group B members: 
-
-#### Schedule
-
-Updated: 6/17/20
-
-
-| Research |         | Literature |          |
-|----------|---------|------------|----------|
-|          |         |            |          |
-| 22-Jun   | Group B | 24-Jun     | Chenghan |
-| 29-Jun   | Group A | 1-Jul      | Eric     |
-| 6-Jul    | Group B | 8-Jul      | Ty       |
-| 13-Jul   | Group A | 15-Jul     | Sam      |
-| 20-Jul   | Group B | 22-Jul     | Jiawei   |
-| 27-Jul   | Group A | 29-Jul     | Dexter   |
-| 3-Aug    | Group B | 5-Aug      | Daniel   |
-| 10-Aug   | Group A | 12-Aug     | Rachita  |
