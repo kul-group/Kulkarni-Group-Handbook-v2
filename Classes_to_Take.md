@@ -37,4 +37,4 @@ that your courseload is manageable by messaging the group on slack
 - ECS 032B: Object Oriented Programming (Note: you would not recieve credit for this course as a graduate student)
 - PHY 240C: Condensed Matter
 
-Add ECH/EMS 290 and 299 with Ambar to receive credit for lab work and group meeting (in addition to 290 lecture series in your first year)
+Add ECH/EMS 290 and 299 with Ambar to receive credit for lab work and group meeting (in addition to 290 lecture series, if required). Make sure you are meeting your department specific course requirements as well.
