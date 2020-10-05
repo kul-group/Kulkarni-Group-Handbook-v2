@@ -2,7 +2,7 @@
 
 We use github to produce code collaboratively, each subgroup has its own shared code to make research easier.
 
-This is a basic summary of how to use github for collaborative projects in the group. It assumes you have a github [account](Account_Setup.md), are part of [kul-group](https://github.com/kul-group) and are using the Professional version of the PyCharm IDE.
+This is a basic summary of how to use github for collaborative projects in the group. It assumes you have a github [account](Account_Setup.md), are part of [kul-group](https://github.com/kul-group) and are using the Professional version of the [PyCharm IDE](https://www.jetbrains.com/pycharm/).
 
 #### Set-up
 
