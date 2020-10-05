@@ -16,9 +16,10 @@ This section lists the various places you should set up an account using your UC
     
 - XSEDE: fill out form on [this page](https://portal.xsede.org/?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Fcreate_account)
 
-- HPC1:  set up vpn too, but only once you have a mac.
+- HPC1 and HPC2: Ask a group member how to do this. Set up the vpn too, but only once you have a mac.
 
 ##### Non-Essential
 
-- Mendeley (add your assigned box folder to sync list)
-- Github: Create an account and have a group member add you to a repo you are working on
+- [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/?interaction_required=true): for reference management
+- [Github](https://github.com/): Create an account and have a group member add you to a repo you are working on
+- [PyCharm](https://www.jetbrains.com/pycharm/): Nice IDE for python. makes it easy to use Github too. Using your student email will give you access to the professional version.
