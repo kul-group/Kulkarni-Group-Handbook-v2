@@ -2,6 +2,16 @@
 
 Effectively communicating your work is essential to being a productive researcher. Presentations are used to update the group, communicate with other groups, and play a central role in your future exams and interviews. The following guidelines focus on how to create clear, effective presentations. See the [Prelim](Preliminary_Examination.md) and [QE](Qualifying_Examination.md) pages for more details on these specific presentations. The [Data Visualization](Data_Visualization.md) page can help with formatting images in your presentation.
 
+#### Drafting
+
+1. make an outline of your slides first
+
+2. Make a rough set of slides with a few images or some text describing what will be on the slide. If you can, run this draft by someone to get suggestions on the structure and flow of the presentation
+
+3. fill out your slides with more details and images until you could do almost all of a presentation in meeting with this rough draft. Present quickly in meeting and get feedback
+
+4. Perfect your presentatio, practice with others, and incorporate feedback.
+
 #### Slides
 
 1. Keep your slides simple. Your audience will have a hard time absorbing a lot of text or data at once. It is better to break things up over multiple slides.
