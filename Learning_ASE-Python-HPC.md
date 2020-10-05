@@ -1,9 +1,11 @@
 ### Learning ASE/Python/HPC
 
+This is an introduction to several important tools used in the Kulkarni group. It is intended only to get you started, you will learn more sophisticated ways of doing things with practice.
+
 #### ASE
 
 ##### Getting Started with ASE
-- make sure you have ase downloaded and on your anaconda PATH -> the `import ase` command in the python command line should give no errors
+- make sure you have ASE downloaded and on your Anaconda PATH: the `import ase` command in the python command line should give no errors.
 
 ##### ASE Practice Problems
 - First, download a structure from the internet (e.g. from this [zeolite database](https://asia.iza-structure.org/IZA-SC/ftc_table.php)) or from someone in the group
@@ -16,13 +18,14 @@ from ase.io import read, write
 a = read('STRUCTUREFILE') 
 ```
 Where STRUCTUREFILE is the name of the structure file you downloaded.
-'a' is an object with the positions of the atoms in your structure, you can manipulate this to complete the practice problems below.
+'a' is an *atoms object* with the positions of the atoms in your structure, you can manipulate this to complete the practice problems below.
 
 ##### ASE GUI
 
 With the ASE python package downloaded, navigate to the folder of the file you want to view with ASE GUI in your terminal. Now type `ase gui STRUCTUREFILE` and hit enter. STRUCTUREFILE is the full name of the atomic structure file you want to view. 
+
 Common commands:
-- scroll up/down to zoom
+- two finger scroll up/down to zoom
 - two finger click-and-drag to rotate
 - one finger click or one finger drag to highlight atoms
 - pressing numbers 1, 2, 3 orients along x, y, z directions respectively
@@ -33,20 +36,19 @@ Common commands:
 #### Python
 
 ##### Getting started with Python
-Make sure you have Anaconda downloaded and an IDE to write code in. Set up your folders and path ... 
-See [this page](Programming.md) for group coding guidelines.
+Make sure you have Anaconda downloaded and an IDE to write code in. See [this page](Programming.md) for group coding guidelines.
 
 ##### Python Practice Problems
-- see [here](http://www.practicepython.org/) for good python practice problems. Once you are comfortable with manipulating lists, for loops, and if/else statements, focus on the ASE practice problems.
+- See [here](http://www.practicepython.org/) for good python practice problems. Once you are comfortable with manipulating lists, for loops, and if/else statements, focus on the ASE practice problems. You will learn the more complicated stuff later.
 
 #### HPC
 
 ##### Getting Started on HPC: Logging in
 Make sure you have an account with the HPC you want to log in to. HPC account creation [here](Account_Setup.md#essential). You will need your account information and (possibly) your 2FA set up to log in.
 - In your command line, type ```ssh -XY username@address``` and hit enter. where 'username' is your account username and 'address' differs based on the hpc you are logging into:
-HPC1: address=hpc1.cse.ucdavis.edu (OR 'hpc1.engr.ucdavis.edu' check your account)
-Stampede: address=stampede2.tacc.utexas.edu
-Cori: address=cori.nersc.gov
+HPC1: address = hpc1.cse.ucdavis.edu (OR 'hpc1.engr.ucdavis.edu' check your account)
+Stampede: address = stampede2.tacc.utexas.edu
+Cori: address = cori.nersc.gov
 
 - you will be prompted for your password and your 2FA, no dots or letters will show up as you type, just type each and press enter.
 
