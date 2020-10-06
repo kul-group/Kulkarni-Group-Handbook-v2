@@ -22,4 +22,4 @@ Sam - For many papers, initially read only the introduction section and look at 
 
 ### Getting up to Speed
 
-The group maintains a literature repository of papers each student should read for each subgroup [here](https://ucdavis.app.box.com/folder/116789839263).
+The group maintains a literature repository of papers each student should read [here](https://ucdavis.app.box.com/folder/116789839263).
