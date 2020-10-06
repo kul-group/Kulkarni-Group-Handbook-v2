@@ -2,7 +2,7 @@
 
 ### Drafting
 
-1. Write a detailed outline. Write an outline which summarizes everything you want to say and the structure of what you are going to write.
+1. Write a [detailed outline](https://ucdavis.app.box.com/file/438352310323?s=cc4uze59oyhcsrs1gpwn24vyqqo2i3ud). A detailed outline summarizes everything you want to say and the structure of what you are going to write.
 
 2. Write a "really rough draft". Write a draft with no concern for clarity, grammar, or completeness. Just get *something* on paper. Don't worry, nobody will see it. 
 
@@ -20,7 +20,7 @@
 
 1. When incorporating images, make rough drafts of the images and don't worry about updating them until the very end. The structure of the other components of the paper as well as formatting requirements will change a lot, don't change your images until you need to.
 
-2. Keep your references organized and accurate! This will save you a lot of time when making a bilbiography
+2. Keep your references organized and accurate! This will save you a lot of time when making a bilbiography.
 
 3. Many examples of writing for the Prelim, QE, proposals, and publications are stored in the group [Box](https://ucdavis.app.box.com/folder/80871253566). These can be used to guide your writing: what works, what doesn't?
  
