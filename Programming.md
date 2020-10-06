@@ -1,19 +1,23 @@
 
 ## Programming
 
+*Note: We have written a lot of useful code already in the group. Repurposing code from the group [github page](https://github.com/kul-group) can save you time.*
+
 ### Some Specific Guidelines for Writing Code
 
-ASE specific guidelines: 
+1. Naming: Make sure your names for variables are descriptive. `h_atom_dict` is better than `atom_dict` or `h_atoms`
 
-Naming conventions: Make sure your names for variables are descriptive.
+2. Comments: Code is read more often than it is run. Comments should be extensive and clear. Imagine you are seeing this code for the first time, do the comments explain everything? Use docstrings for functions and classes.
 
-Comments: comments should be extensive and clear.
+3. Use Python's functionality to make code shorter, but don't overdo it. For example Python's list comprehension can help remove a `for` loop while still being readable. But, if you find yourself trying to combine several steps into a single line, stop. Break these steps over several lines and explain them with comments.
 
-We have written a lot of useful code already in the group. Repurposing code from the group [github page](https://github.com/kul-group) can save you time.
+4. Start small, test, then build more. You may be confident that several lines of code you wrote will work as intended, but test them anyways. It is a nightmare to find a bug inside dozens of connected functions over hundreds of lines of code. Instead, build a small working part, then make sure it outputs what you expect on several test cases and make sure it integrates nicely with the rest of the program. Only then should you start writing something new.
+
+5. Search for help, then ask for help. A lot of coding issues can be resolved by a websearch. If you are stuck, first search for solutions to your problem online. Usually this will resolve your issue within 20 minutes. If you are still stuck, it is important that you ask the group for help (this can save you a lot of time!). Message the group on Slack with your problem and attempted solutions. If that doesn't work, ask someone to look over your code with you, oftentimes a new person will be able to see what you are missing. 
 
 ### High Level Python Guidelines
 
-Summarized from materials covered in ECS 32B:
+Summarized from materials covered in ECS 32B.
 
 Two Major Topics:
 
