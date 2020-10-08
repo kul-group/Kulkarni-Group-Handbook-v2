@@ -2,11 +2,11 @@
 
 ### Guidelines
 
-1. Use descriptive axes and titles, include units, and make the fontsize large
+1. Use descriptive axes and titles, include units, and make the fontsize large (~16 pt.). Include other relevant technical information (like the DFT functional you used) in a textbox below the image.
 
 2. Use appropriate color schemes. [Colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) can help you pick combinations of colors which look good. Use different shades to accomodate colorblind users.
 
-3. Don't put too much data on a single plot. Like your writing, your images should "tell a story".
+3. Don't put too much data on a single plot. What are you trying to say? Like your writing, your images should "tell a story".
 
 ### Using Matplotlib
 
