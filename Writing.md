@@ -33,5 +33,3 @@
 - The UC Davis University Writing Program has workshops, consultations, and writers retreats for graduate students [here](https://writing.ucdavis.edu/gradwriting). Their [online writing resources](https://writing.ucdavis.edu/gradwriting/online-resources) are helpful too.
 
 - Though it doesn't apply everywhere, the [ACS Guide to Scholarly Communication](https://pubs.acs.org/isbn/9780841239999#) can help guide your writing.
-
-- 
