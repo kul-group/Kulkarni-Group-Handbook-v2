@@ -37,8 +37,6 @@ Please let people know if there is an incorrect link or if this table of content
 
 ### [High Performance Computers](High_Performance_Computers.md)
 
-### [Command Line](Command_Line.md)
-
 ### [Running Jobs](Running_Jobs.md)
 
 ### [Qualifying Examination](Qualifying_Examination.md)
