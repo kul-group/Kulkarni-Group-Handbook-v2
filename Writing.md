@@ -29,3 +29,9 @@
 3. Many examples of writing for the Prelim, QE, proposals, and publications are stored in the group [Box](https://ucdavis.app.box.com/folder/80871253566). These can be used to guide your writing: what works, what doesn't?
  
 ### Outside Resources
+
+- The UC Davis University Writing Program has workshops, consultations, and writers retreats for graduate students [here](https://writing.ucdavis.edu/gradwriting). Their [online writing resources](https://writing.ucdavis.edu/gradwriting/online-resources) are helpful too.
+
+- Though it doesn't apply everywhere, the [ACS Guide to Scholarly Communication](https://pubs.acs.org/isbn/9780841239999#) can help guide your writing.
+
+- 
