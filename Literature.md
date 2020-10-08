@@ -5,18 +5,19 @@ This section goes over general advice for how to read papers, find relevant publ
 ### Reading Tips
 
 Tips for keeping track of literature and reading more efficiently: 
-Use Mendeley to organize the literature. Use the watch folder functionality. 
-Ambar - Read in the following order: conclusions/ summary --> intro --> figures/ captions --> whole paper 
-Ambar - summarize the main results in a power point slide
 
-
-Daniel - Practice makes perfect
-
-
-Sam - Be judicious with your time, focus on paper sections with info which is new to you and be picky about the papers you read.
-Sam - For many papers, initially read only the introduction section and look at the figures. The introduction gives you the background/significance of the work and summarizes the papers approach and results.
+- Use Mendeley to organize the literature. Use the watch folder functionality. 
+- Read in the following order: conclusions/ summary --> intro --> figures/ captions --> whole paper 
+- summarize the main results in a power point slide
+- Practice makes perfect
+- Be judicious with your time, focus on paper sections with info which is new to you and be picky about the papers you read.
+- For many papers, initially read only the introduction section and look at the figures. The introduction gives you the background/significance of the work and summarizes the papers approach and results.
 
 ### Finding Papers
+
+- Connected Papers
+
+- Google Scholar: searches, citation alerts, author alerts
 
 ### Organizing Your Literature
 
