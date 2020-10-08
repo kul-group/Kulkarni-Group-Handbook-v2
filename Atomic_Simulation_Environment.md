@@ -4,6 +4,18 @@ ASE is a python package we use for manipulating atomic structures. Documentation
 
 #### Using ASE
 
+Reading/Writing Files
+
+Selecting Atoms
+
+Adding/Deleting Atoms/Molecules/Slabs
+
+Moving/Rotating Atoms
+
+Neighbors
+
+Constraints
+
 #### ASE GUI
 
 ASE GUI is used to visualize and manipulate atoms. It can even be used to visualize atoms on an HPC, but this is slow.
