@@ -14,7 +14,11 @@
 
 ### Writing Tips
 
-1. 
+1. Use simple words when possible. Using a lot of technical terms can be confusing to read, even for a technical audience.
+
+2. Know your audience. Most people, will not know your specific field. If you work on zeolites, do your readers know what zeolites are and why they are important? If your audience works in an adjacent field, do they know the history of innovations in your field? Emphasize the parts of your research your audience is interested in.
+
+2. Make sure your ideas flow logically. Reorder sentences and paragraphs you have written so that each idea builds on the next. You will hear often that your writing should "tell a story".
 
 ### Other Tips
 
