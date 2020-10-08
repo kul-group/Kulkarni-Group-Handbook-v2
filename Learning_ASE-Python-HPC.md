@@ -52,7 +52,7 @@ Cori: address = cori.nersc.gov
 
 - you will be prompted for your password and your 2FA, no dots or letters will show up as you type, just type each and press enter.
 
-##### Getting Started on HPC: Basic Commands
+##### Getting Started with Bash: Basic Commands
 This is a basic introduction to the most commonly used bash commands. A more detailed tutorial can be found [here](Command_Line.md#command-line). You can practice most of this on your local machine. Essentially, the command line allows you to move around your computer, make new files, edit documents, and run simple programs. While this is easy to do on your local machine using Finder or Anaconda, when using a HPC, almost everything must be done using the command line. To start, open iTerm or other terminal software.
 
 ###### Moving Around
@@ -83,6 +83,19 @@ The basic commands are:
 - move around using the arrow keys
 - edit part of the file by pressing the 'i' key, in the lower left corner you will see the word 'INSERT' indicating that you are in insert mode. Here you can delete characters, write new ones, and add new lines. However, your changes do not automatically save! Get out of insert mode by pressing the escape key.
 - quit vi and save your work by holding down the shift key and pressing Z twice (shift + ZZ)
+
+#### Outside Resources
+
+[ASE Docs](https://wiki.fysik.dtu.dk/ase/)
+
+[Python Docs](https://docs.python.org/3/)
+
+[Bash Reference](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
+
+[NERSC Docs](https://docs.nersc.gov/)
+
+[XSEDE Docs](https://portal.xsede.org/user-guides)
+
 
 
 
