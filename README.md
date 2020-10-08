@@ -49,6 +49,8 @@ Please let people know if there is an incorrect link or if this table of content
 
 ### [Writing](Writing.md)
 
+### [Making Images](Making_Images.md)
+
 ## Further Resources
 
 ### [Meeting Schedule](Meeting_Schedule.md)
