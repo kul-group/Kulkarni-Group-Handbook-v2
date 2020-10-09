@@ -19,3 +19,5 @@
 - [Colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
 - [Matplotlib Documantation](https://matplotlib.org) is useful. The tutorials can help a first-time user get started.
+
+- A wide range of color options are available with the matplotlib 'xkcd' tag (yes, that XKCD), the list of colors is [here](https://xkcd.com/color/rgb/)
