@@ -9,6 +9,8 @@ theory, and a timeline for future work.
 
 #### Writing the Dissertation
 
+Your dissertation is a 10-15 page document where you summarize the background, proposed work, and preliminary results for your research. It is easiest to write your dissertation *after* you are mostly done making your slides, so that the two can be coherent. See the [writing section](Writing.md) for advice on how to write your dissertation. The group maintains past QE dissertations on [Box](https://ucdavis.app.box.com/folder/80871253566), use these as a guide.
+
 #### Advice
 
 1. An easy QE is just a well prepared QE. You got this!
@@ -32,3 +34,5 @@ theory, and a timeline for future work.
 10. Review the fundamentals: know how to explain your research starting from quantum mechanics, to DFT, to computation of properties, and have an understanding of the errors/assumptions made along the way.
 
 11. Review the literature: read a significant number of papers in your field. Look over the related papers of your committee members, this will help you anticipate questions and understand their general approach to problems.
+
+*Note: the group has past QE presentations on [Box](https://ucdavis.app.box.com/folder/80871253566). Use these as a guide.*
