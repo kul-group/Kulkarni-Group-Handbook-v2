@@ -36,3 +36,5 @@ People in the group will help you to improve you slides (make sure you see previ
 
 Most importantly STAY CALM and CONFIDENT!!!
 
+*Note: the group saves previous prelim presentations on [Box](https://ucdavis.app.box.com/folder/80871253566). Use these as a guide.*
+
