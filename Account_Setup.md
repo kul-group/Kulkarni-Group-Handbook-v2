@@ -16,7 +16,7 @@ This section lists the various places you should set up an account using your UC
     
 - XSEDE: fill out form on [this page](https://portal.xsede.org/?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Fcreate_account)
 
-- HPC1 and HPC2: Ask a group member how to do this. Set up the vpn too, but only once you have a mac.
+- HPC1 and HPC2: Set up your SSH key using [these](https://wiki.cse.ucdavis.edu/support:general:security:ssh?&#generating_a_key_pair) instructions. Fill out the form on [this](http://wiki.cse.ucdavis.edu/cgi-bin/engr.pl) page. Then send your public SSH key to the HPC1 administrators. Set up the vpn too, but only once you have a mac.
 
 ##### Non-Essential
 
