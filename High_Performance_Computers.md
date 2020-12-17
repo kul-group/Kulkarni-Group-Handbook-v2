@@ -10,6 +10,13 @@ High Performance Computer or HPC is just a term for much larger, faster, compute
 - transferring data
 - getting jobs through quickly
 
+
+#### Installing Anaconda on Stampede
+
+1. type `wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh` into your command line
+2. type `bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh`
+3. type `source ~/.bashrc` so the anaconda installation starts working
+
 ### NERSC
 
 ### Stampede
