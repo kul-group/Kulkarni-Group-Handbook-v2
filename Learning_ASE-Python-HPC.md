@@ -84,6 +84,24 @@ The basic commands are:
 - edit part of the file by pressing the 'i' key, in the lower left corner you will see the word 'INSERT' indicating that you are in insert mode. Here you can delete characters, write new ones, and add new lines. However, your changes do not automatically save! Get out of insert mode by pressing the escape key.
 - quit vi and save your work by holding down the shift key and pressing Z twice (shift + ZZ)
 
+### Setting up HPC1 environment
+When using the HPC, it is useful to have some programs and environmental variables initialized upon login. This is done with the ~/.bashrc and ~/.profile files.
+The ~/.profile is run first by the system. Use VIM to copy-paste this to that file:
+
+    if [ -s ~/.bashrc ]; then
+        source ~/.bashrc;
+    fi
+
+Then, open your ~/.bashrc file. You will put commands here to add paths to $PYTHONPATH, #PATH, and initialize programs. For example, if you install Anaconda on HPC1, you can add
+
+    export PATH="/home/$USER/anaconda3/bin:$PATH"
+
+to add the `conda` executable to your PATH variable, allowing you to run it from the command line. If you have a Python script you would like to import from anywhere in your account directory, you can add it to your PYTHONPATH in a similar way.
+
+    export PYTHONPATH="/home/$USER/my_python_scripts:$PYTHONPATH"
+   
+`$USER` is an environmental variable that is already set up: your HPC1 username.
+
 #### Outside Resources
 
 [ASE Docs](https://wiki.fysik.dtu.dk/ase/)
