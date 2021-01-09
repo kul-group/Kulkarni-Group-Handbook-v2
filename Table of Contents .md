@@ -24,6 +24,8 @@ OUT OF DATE. [README](https://github.com/kul-group/Group-Handbook#table-of-conte
 
 ### [Github](https://github.com/kul-group/Group-Handbook/blob/master/Github.md#github)
 
+### [Git and Github Tutorial](https://github.com/kul-group/Group-Handbook/blob/master/Learning%20Git.md#github)
+
 ### [High Performance Computers](https://github.com/kul-group/Group-Handbook/blob/master/High%20Performance%20Computers.md#high-performance-computers)
 
 ### [Command Line](https://github.com/kul-group/Group-Handbook/blob/master/Command%20Line.md#command-line)
