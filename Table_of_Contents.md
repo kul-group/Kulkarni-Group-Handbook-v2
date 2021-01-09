@@ -1,15 +1,8 @@
-> Catalyzing Your Transition to the Kulkarni Group!
+OUT OF DATE. [README](README.md) IS MORE ACCURATE
 
 Handbook for the [Kulkarni Group](https://kulkarni.sf.ucdavis.edu/) at UC Davis. 
 
-#### Editors
-Feel free to add to the handbook or expand it by adding pages, see [here](Editing_and_Copying_the_Handbook.md) for instructions.
-Mostly focus on adding bullet points and short bits of text, we will make it more coherent over time.
-
-If you like, you can title a page with .md and use [markdown formatting](https://www.markdownguide.org/basic-syntax) to make it look nice.
-
-#### Users
-Please let people know if there is an incorrect link or if this table of contents is outdated. Please note which sections are not helpful or confusing.
+[Handbook Home](https://sjholton.github.io/Kulkarni-Group-Handbook/)
 
 # Table of Contents
 
@@ -37,6 +30,8 @@ Please let people know if there is an incorrect link or if this table of content
 
 ### [High Performance Computers](High_Performance_Computers.md)
 
+### [Command Line](Command_Line.md)
+
 ### [Running Jobs](Running_Jobs.md)
 
 ### [Qualifying Examination](Qualifying_Examination.md)
@@ -48,8 +43,6 @@ Please let people know if there is an incorrect link or if this table of content
 ### [Presentations](Presentations.md)
 
 ### [Writing](Writing.md)
-
-### [Making Images](Making_Images.md)
 
 ## Further Resources
 

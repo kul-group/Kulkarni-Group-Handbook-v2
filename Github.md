@@ -6,6 +6,8 @@ This is a basic summary of how to use github for collaborative projects in the g
 #### Learning Git 
 See the learning [github wikipage](https://github.com/kul-group/Group-Handbook/blob/master/Github.md#github)
 
+This is a basic summary of how to use github for collaborative projects in the group. It assumes you have a github [account](Account_Setup.md), are part of [kul-group](https://github.com/kul-group) and are using the Professional version of the [PyCharm IDE](https://www.jetbrains.com/pycharm/).
+
 #### Installation Command Line Interface 
 
 #### Git Set-up
