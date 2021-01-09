@@ -145,7 +145,8 @@ When doing a new experiment
 2. Commit changes locally throughout progress (every time a change is made) 
 ```bash
 git add –u # add tracked files
-git add commit –m “what you did”```
+git add commit –m “what you did”
+```
 
 3. After experiment is complete push changes to remote 
 ```git push origin branch-name```
