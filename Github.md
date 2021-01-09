@@ -3,9 +3,28 @@
 We use github to produce code collaboratively, each subgroup has its own shared code to make research easier.
 
 This is a basic summary of how to use github for collaborative projects in the group. It assumes you have a github [account](https://github.com/kul-group/Group-Handbook/blob/master/Account%20Setup.md#non-essential), are part of [kul-group](https://github.com/kul-group) and are using the Professional version of the PyCharm IDE.
+#### Learning Git 
+See the learning [github wikipage](https://github.com/kul-group/Group-Handbook/blob/master/Github.md#github)
 
-#### Set-up
+#### Installation Command Line Interface 
 
+#### Git Set-up
+For MacOS you can follow the instructions [here](https://git-scm.com/download/mac).
+I recommend installing [homebrew](https://brew.sh/) (a package manager for macOS) and then running 
+
+```bash
+brew install git
+```
+
+For windows install GitBash which can be found [here](https://git-scm.com/download/win). 
+
+Git bash is great to have on windows, because it allows you to do a lot of other linux-like things, such as ssh places. 
+
+#### Github Setup 
+1. Make a Github account by going to 
+2. Get added to the kul-group organization by asking someone to add you. [Here](https://docs.github.com/en/enterprise-server@2.20/github/setting-up-and-managing-organizations-and-teams/adding-people-to-your-organization) are instructions for adding a new person to an organization
+
+##### Using Git/Github with Pycharm 
 1. Go to the Github repository you want to work on, click the 'clone' button and copy the URL it shows.
 2. Open PyCharm click 'VCS' in the menu bar and select 'Get from Version Control...', paste the URL, and click 'clone'
 3. The project will load and you will see a blank menu, in the lower right corner, click the button which says '<no interpreter>' and select your anaconda python interpreter (make sure you have this interpreter set up. See [here](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/python-path/) for instructions.)
