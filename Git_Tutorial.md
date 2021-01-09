@@ -143,8 +143,10 @@ When doing a new experiment
 1.	Create a new local branch off of master branch
 ```git checkout –b new-branch-name```
 2. Commit changes locally throughout progress (every time a change is made) 
-```git add –u # add tracked files
+```bash
+git add –u # add tracked files
 git add commit –m “what you did”```
+
 3. After experiment is complete push changes to remote 
 ```git push origin branch-name```
 4. Create pull request on github 

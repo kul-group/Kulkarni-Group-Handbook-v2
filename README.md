@@ -35,6 +35,8 @@ Please let people know if there is an incorrect link or if this table of content
 
 ### [Github](Github.md)
 
+### [Git and Github Tutorial](Git_Tutorial.md)
+
 ### [High Performance Computers](High_Performance_Computers.md)
 
 ### [Running Jobs](Running_Jobs.md)
