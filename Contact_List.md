@@ -4,4 +4,4 @@
 Though you might get a faster response if you message them on [Slack](Account_Setup.md).
 
 
-
+Austin Shaw		ajshaw@ucdavis.edu
