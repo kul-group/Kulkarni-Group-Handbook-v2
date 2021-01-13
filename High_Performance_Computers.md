@@ -25,7 +25,7 @@ High Performance Computer or HPC is just a term for much larger, faster, compute
 
 #### Useful Commands
 
-`sl` to see a locomotive
+`sl` to see a choo-choo train
 
 modify your .bashrc to include these shortcuts:
 
