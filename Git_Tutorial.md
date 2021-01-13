@@ -161,4 +161,5 @@ git add commit –m “what you did”
 ```git branch –-merged # list merged branches
 Git branch –d new-branch-name ```
 
-
+People who have completed this tutorial: 
+1. Dexter Antonio
