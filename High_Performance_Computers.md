@@ -31,6 +31,13 @@ modify your .bashrc to include these shortcuts:
 
 #### Useful scripts
 
+#### Interactive mode
+
+When testing scripts that require VASP, it is useful to use interactive mode. This allows you to run a VASP calculation on a node as though you were working in a normal directory, so messages will be printed to your screen as the job runs. Another window can be opened to monitor the file structure, inspect VASP output files, etc. This is done by running
+
+    alias interactive='srun --nodes=1 --ntasks-per-node=16 --time=04:00:00 --pty bash -i'
+
+and then running your script (with Python, for example. Not sbatch.).
 
 #### Outside References
 
