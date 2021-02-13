@@ -22,7 +22,7 @@ atoms.set_constraint(constraints)
 
 ##### VASP/Clusters
 
-- Files are not written/jobs appear to be running but nothing is happening: Check that you have not reached your quota on the cluster. On Cori, type < myquota > to check this. You may want to move files to a different directory on the system - your $HOME directory is not where you should store completed calculations. Refer to cluster websites/the group for info about quotas and different directories.
+- Files are not written/jobs appear to be running but nothing is happening: Check that you have not reached your quota on the cluster. On Cori, type `myquota` to check this. You may want to move files to a different directory on the system - your $HOME directory is not where you should store completed calculations. Refer to cluster websites/the group for info about quotas and different directories.
 
 - SIGTERM error with VASP (looks something like this:)
 
