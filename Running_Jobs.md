@@ -56,7 +56,8 @@ So rename your is.traj appropriately. You may want to have six images, with your
 4. You have your optimized endpoints and a set of images between them, so you're ready to run a VASP CI-NEB. Note the settings used in vasp\_neb.py. Look up the VASP settings you're not familiar with. Note that the number of nodes you use should be equal to the number of images you are using, or VASP will throw an error.
 5. These calculations are very time-consuming, so be careful. You may also want to use ML-NEB instead.
 
-Useful reference: https://theory.cm.utexas.edu/vtsttools/neb.html#neb
+VASP elastic band and nudged elastic band: https://cms.mpi.univie.ac.at/vasp/vasp/Elastic_band_method.html
+Henkelman group VASP NEB tools: https://theory.cm.utexas.edu/vtsttools/neb.html#neb
 
 ### ML-NEB
 Expensive nudged elastic band calculations can be greatly accelerated with a machine-learning optimization method. This is implemented in SUNCAT's Catlearn ML-NEB module: https://github.com/SUNCAT-Center/CatLearn. The .ipynb file in tutorials > 11\_NEB > 00\_Tutorial is a good start.
