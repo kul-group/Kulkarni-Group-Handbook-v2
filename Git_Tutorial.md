@@ -12,6 +12,8 @@ See the Installation section on the main github wiki page
 #### Git Basics
 This [git book](https://git-scm.com/book/en/v2) provides a great overview of git and how to work with a remote git repo like GitHub. This book is a well written, easy to read book, that provides the foundation from which you can gain After installing git, I recommend reading chapter 1 of the book. If you are short on time, or not interested in the history of version control, then you can skip to chapter 2 and read through chapter 3. 
 
+If you prefer a video tutorial you can find a good one [here](https://www.youtube.com/watch?v=_OZVJpLHUaI&t=201s).
+
 The most important commands from that section are 
 
 ```bash 
