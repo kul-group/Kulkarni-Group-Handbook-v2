@@ -50,9 +50,9 @@ There are several ways of getting initial atomic structures for your research.
 2. Next, make a transition state. You will likely want to use ASE's interpolation tools for this (Ambar's interp_neb.py tool can be very helpful for manipulating structures from the terminal). You should also use your intuition about chemical bonding to find an intermediate high-energy state that works as an initial guess for the initial state. This is an important step and choosing the correct transition state has a significant effect on how quickly your CI-NEB will converge. Save this as ts.traj. *Unstable transition states or other images you use in your initial guess will cause your NEB to fail.*
 3. Now you will make a set of interpolated images for VASP. You can use interp\_neb.py as a command line tool for this. Examples:
 ```
-interp_neb.py is 3 2 (interpolate between is.traj and neb3.traj with 2 images in between)
-interp_neb.py 3 fs 3 (interpolate between neb3.traj and fs.traj with 3 images in between)
-interp_neb.py is fs 7 (interpolate between is.traj and fs.traj with 7 images in between)
+interp_neb.py is 3 2 # interpolate between is.traj and neb3.traj with 2 images in between
+interp_neb.py 3 fs 3 # interpolate between neb3.traj and fs.traj with 3 images in between
+interp_neb.py is fs 7 # interpolate between is.traj and fs.traj with 7 images in between
 ```
 So rename your is.traj appropriately. You may want to have six images, with your ts.traj as neb3.traj. Or eight with neb4.traj. Or whatever. It is best to start with a small amount of images (one to three images between is and fs).
 4. You have your optimized endpoints and a set of images between them, so you're ready to run a VASP NEB. You can use Henkelman's VASP tools to run a climbing-image NEB, but convergence may be better if you run a standard NEB for a few iterations first.
