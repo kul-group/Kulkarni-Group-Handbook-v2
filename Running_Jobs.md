@@ -96,11 +96,11 @@ There are a couple things you may try. If you increase your spring constant, you
 
 *MPI errors/SLURM errors/VASP errors with CI-NEB*
 
-Climbing image NEB in VASP with ASE currently has a bug that requires a CONTCAR and OUTCAR in the same directory as the calculation. It does not matter what the CONTCAR and OUTCAR are for, but calcs will fail with them. The other possibility is that the number of nodes you request on the cluster is not an even divisor of the number of images.
+Climbing image NEB in VASP with ASE currently has a bug that requires a CONTCAR and OUTCAR in the same directory as the calculation. It does not matter what the CONTCAR and OUTCAR are for, but calcs will fail with them. Another possibility is that the number of nodes you request on the cluster is not an even divisor of the number of images.
 
 *My reaction-energy diagram has multiple peaks.*
 
-Your NEB will require a restart. If you look at the final set of images, you will likely see that two disconnected images have started to look very similar. Double check your structures and try increasing the spring constant.
+Your NEB will require a restart. If you look at the final set of images, you will likely see that two disconnected images have started to look very similar. Double check your structures and try increasing the spring constant. Another possibility is that there are two reactions or diffusion steps taking place, with two activation energies.
 
 *I have no idea where the transition state is and VASP can't find it.*
 
