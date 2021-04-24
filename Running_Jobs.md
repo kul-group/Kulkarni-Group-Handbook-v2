@@ -87,18 +87,23 @@ This is done before running the full climbing-image NEB and improves your initia
 
 #### Troubleshooting
 *The structures in my NEB make no sense. They have gone all over the place.*
+
 In this case, you likely made a mistake with your initial guess. Check that the indices match across the structures. Use the ASE GUI to label the indices and make sure they are the same. The other possibility is that you put atoms in places that make them unhappy. This will always throw off the NEB.
 
 *I cannot converge my NEB, although there are no clear issues with it.*
+
 There are a couple things you may try. If you increase your spring constant, you can narrow down your search of the PES. You can also try using only one image. This reduces the effect of unhappy images and simplifies the optimization problem. Only do this if you are confident about your TS and are relatively close to convergence (< .5 eV).
 
 *MPI errors/SLURM errors/VASP errors with CI-NEB*
+
 Climbing image NEB in VASP with ASE currently has a bug that requires a CONTCAR and OUTCAR in the same directory as the calculation. It does not matter what the CONTCAR and OUTCAR are for, but calcs will fail with them. The other possibility is that the number of nodes you request on the cluster is not an even divisor of the number of images.
 
 *My reaction-energy diagram has multiple peaks.*
+
 Your NEB will require a restart. If you look at the final set of images, you will likely see that two disconnected images have started to look very similar. Double check your structures and try increasing the spring constant.
 
 *I have no idea where the transition state is and VASP can't find it.*
+
 Try using many images. This allows you to sample energies in more images along the band, giving you more possibilities for a TS. Reduce the number of images once you are confident you've found it.
 
 #### Analyzing a reaction-energy diagram out of a NEB
