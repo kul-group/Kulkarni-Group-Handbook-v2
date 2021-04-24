@@ -59,7 +59,7 @@ So rename your is.traj appropriately. You may want to have six images, with your
 5.  The number of nodes you use should be evenly divisable by the number of images you are using, or VASP will throw an error. These calculations are very time-consuming and computationally intensive, so be careful.
 
 #### Setting up a NEB
-The initial state should be saved as a POSCAR in a directory called 00, and the middle images should be POSCARs in directories, in order, named 01, 02, 03, etc. (up to the amount of images you have). The final state POSCAR goes in the last directory named in the same way. This should be taken care of in the vasp_neb.py script.
+The initial state should be saved as a POSCAR in a directory called 00, and the middle images should be POSCARs in directories, in order, named 01, 02, 03, etc. (up to the amount of images you have). The final state POSCAR goes in the last directory named in the same way. This should be taken care of in the vasp_neb.py script. *If you are running a climbing-image NEB you need a CONTCAR and a POSCAR in the directory too. It doesn't matter what they are, but there is a bug in VASP NEB with ASE that will cause the calculation to fail.*
 
 #### VASP Settings for NEB and CI-NEB
 "Pre-NEB"/NEB: ibrion=3, iopt=0, lclimb=False, potim=0.05
