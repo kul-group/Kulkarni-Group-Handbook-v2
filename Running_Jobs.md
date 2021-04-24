@@ -55,6 +55,7 @@ interp_neb.py 3 fs 3 # interpolate between neb3.traj and fs.traj with 3 images i
 interp_neb.py is fs 7 # interpolate between is.traj and fs.traj with 7 images in between
 ```
 So rename your is.traj appropriately. You may want to have six images, with your ts.traj as neb3.traj. Or eight with neb4.traj. Or whatever. It is best to start with a small amount of images (one to three images between is and fs).
+
 4. You have your optimized endpoints and a set of images between them, so you're ready to run a VASP NEB. You can use Henkelman's VASP tools to run a climbing-image NEB, but convergence may be better if you run a standard NEB for a few iterations first.
 5.  The number of nodes you use should be evenly divisable by the number of images you are using, or VASP will throw an error. These calculations are very time-consuming and computationally intensive, so be careful.
 
