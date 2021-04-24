@@ -64,11 +64,14 @@ The initial state should be saved as a POSCAR in a directory called 00, and the 
 #### VASP Settings for NEB and CI-NEB
 "Pre-NEB"/NEB: ibrion=3, iopt=0, lclimb=False, potim=0.05
     POTIM is the step size for MD.
+
 CI-NEB: ibrion=3, iopt=7, lclimb=True, potim=0.0
     This combination of ibrion and iopt is the FIRE (Fast Intertial Relaxation Engine) algorithm, the fastest for CI-NEB. 
 
 Fore more detail:
+
 VASP elastic band and nudged elastic band: https://cms.mpi.univie.ac.at/vasp/vasp/Elastic_band_method.html
+
 Henkelman group VASP NEB tools: https://theory.cm.utexas.edu/vtsttools/neb.html#neb
 
 #### Pre-optimizing your transition state and "pre-NEB"
