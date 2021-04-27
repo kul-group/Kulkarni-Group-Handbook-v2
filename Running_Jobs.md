@@ -64,7 +64,7 @@ The initial state should be saved as a POSCAR in a directory called 00, and the 
 
 #### VASP Settings for NEB and CI-NEB
 "Pre-NEB"/NEB: ibrion=3, iopt=0, lclimb=False, potim=0.05
-    POTIM is the step size for MD.
+    POTIM is the step size for MD. Make sure you have a CONTCAR and OUTCAR in the directory. Just copy over from your opt_is and opt_fs calcs.
 
 CI-NEB: ibrion=3, iopt=7, lclimb=True, potim=0.0
     This combination of ibrion and iopt is the FIRE (Fast Intertial Relaxation Engine) algorithm, the fastest for CI-NEB. 
@@ -97,7 +97,7 @@ There are a couple things you may try. If you increase your spring constant, you
 
 *MPI errors/SLURM errors/VASP errors with CI-NEB*
 
-Climbing image NEB in VASP with ASE currently has a bug that requires a CONTCAR and OUTCAR in the same directory as the calculation. It does not matter what the CONTCAR and OUTCAR are for, but calcs will fail with them. Another possibility is that the number of nodes you request on the cluster is not an even divisor of the number of images.
+Climbing image NEB in VASP with ASE currently has a bug that requires a CONTCAR and OUTCAR in the same directory as the calculation. The CONTCAR and OUTCAR should be for similar structures (just copy over from opt_is or opt_fs), but calcs will fail with them. Another possibility is that the number of nodes you request on the cluster is not an even divisor of the number of images.
 
 *My reaction-energy diagram has multiple peaks.*
 
